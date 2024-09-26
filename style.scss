@@ -1,22 +1,20 @@
-$background-image: url('202409091180908344023241086.jpg'); // Background image path
+$background-image: url('Picsart_24-09-26_15-03-59-962'); // Background image path
 $image-width: 150px; // Width of the images
 
 body {
-    margin: 500px;
-    padding: 20px;
+    
     background-image: $background-image;
     background-size: cover; // Ensures the background covers the whole area
     display: flex;
     justify-content: flex-end; // Aligns the container to the right
     height: 100vh; // Full height
-
-    .image-container {
-        display: flex; // Align images in a row
-
-        img {
-            width: 300px; // Set the width of the images
-           height: 150px; // Set the height of the images
-            margin-left: 500px;500px; 500px; 500px; // No margin between images
-        }
+width:100vh;
+    height:780px;
+    width:360px;
+    
+    table{
+    width: 360px;
+    border-collapse: collapse;
+tb ,td{
+    background-colour:violent;
     }
-}
